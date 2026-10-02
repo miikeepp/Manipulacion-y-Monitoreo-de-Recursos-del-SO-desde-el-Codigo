@@ -1,0 +1,6 @@
+psutil>=5.9
+
+# --- Solo para generar las evidencias de entrega (no las necesitan los scripts) ---
+Pillow>=10.0        # capturas de pantalla con PIL.ImageGrab
+python-docx>=1.1    # informe .docx
+docx2pdf>=0.1.8     # exportar el informe a PDF (requiere Microsoft Word)
